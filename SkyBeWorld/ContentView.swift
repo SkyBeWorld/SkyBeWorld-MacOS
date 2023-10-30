@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                Section("Main") {
+                    NavigationLink(destination: homeView()) {
+                        Label("Home", systemImage: "house")
+                    }
+                    NavigationLink(destination: FormsView()) {
+                        Label("Forms", systemImage: "keyboard")
+                    }
+                    NavigationLink(destination: homeView()) {
+                        Label("About us", systemImage: "info.circle")
+                    }
+                    NavigationLink(destination: homeView()) {
+                        Label("Social", systemImage: "message")
+                    }
+                }
+            }
+            .navigationTitle("SkyBeWorld")
+            
+            homeView()
         }
-        .padding()
     }
 }
 

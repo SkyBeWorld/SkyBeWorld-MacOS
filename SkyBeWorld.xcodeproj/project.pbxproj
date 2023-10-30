@@ -11,6 +11,8 @@
 		091E04572AEFD4280083C769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E04562AEFD4280083C769 /* ContentView.swift */; };
 		091E04592AEFD42A0083C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091E04582AEFD42A0083C769 /* Assets.xcassets */; };
 		091E045C2AEFD42A0083C769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091E045B2AEFD42A0083C769 /* Preview Assets.xcassets */; };
+		091E04652AEFD4480083C769 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E04642AEFD4480083C769 /* homeView.swift */; };
+		091E04672AEFD68B0083C769 /* FormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E04662AEFD68B0083C769 /* FormsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		091E04582AEFD42A0083C769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		091E045B2AEFD42A0083C769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		091E045D2AEFD42A0083C769 /* SkyBeWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkyBeWorld.entitlements; sourceTree = "<group>"; };
+		091E04642AEFD4480083C769 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		091E04662AEFD68B0083C769 /* FormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		091E04532AEFD4280083C769 /* SkyBeWorld */ = {
 			isa = PBXGroup;
 			children = (
+				091E04632AEFD4390083C769 /* Views */,
 				091E04542AEFD4280083C769 /* SkyBeWorldApp.swift */,
 				091E04562AEFD4280083C769 /* ContentView.swift */,
 				091E04582AEFD42A0083C769 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				091E045B2AEFD42A0083C769 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		091E04632AEFD4390083C769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				091E04642AEFD4480083C769 /* homeView.swift */,
+				091E04662AEFD68B0083C769 /* FormsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091E04672AEFD68B0083C769 /* FormsView.swift in Sources */,
 				091E04572AEFD4280083C769 /* ContentView.swift in Sources */,
 				091E04552AEFD4280083C769 /* SkyBeWorldApp.swift in Sources */,
+				091E04652AEFD4480083C769 /* homeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
