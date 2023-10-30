@@ -12,6 +12,13 @@ struct SkyBeWorldApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }   
+        .commands {
+            CommandMenu("Task") {
+                Button("Account") {
+                    
+                }
+            }
         }
     }
 }
