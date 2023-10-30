@@ -9,8 +9,13 @@ import SwiftUI
 
 struct homeView: View {
     var body: some View {
-        Text("Home View")
-            .navigationTitle("Home")
+        VStack {
+            Image("header")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            Spacer()
+        }
     }
 }
 

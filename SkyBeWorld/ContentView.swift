@@ -29,7 +29,7 @@ struct ContentView: View {
             .navigationTitle("SkyBeWorld")
             
             homeView()
-        }
+        }.frame(minWidth: 600, minHeight: 400)
     }
 }
 
